@@ -1,4 +1,0 @@
----
-# tasks file for nsxt
-- name: Controller Configuration | NSXT 
-  include: nsxt.yaml

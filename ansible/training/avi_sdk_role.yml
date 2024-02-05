@@ -1,8 +1,0 @@
----
-- hosts: localhost
-  connection: local
-  roles:
-    - role: avinetworks.avisdk
-  tasks:
-    - name: Print Hello
-      debug: msg="Hello"
