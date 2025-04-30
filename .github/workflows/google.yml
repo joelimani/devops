@@ -37,6 +37,9 @@ on:
   push:
     branches:
       - '"master"'
+  pull_request:
+    branches:
+      - '"master"'
 
 env:
   PROJECT_ID: 'monitoring-439015' # TODO: update to your Google Cloud project ID
